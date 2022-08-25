@@ -1,0 +1,142 @@
+@media screen and (max-width:1200px) {
+    .header {
+        height: 100%;
+    }
+
+    .header__wrap {
+        flex-direction: column;
+    }
+
+    .banner__wrap {
+        flex-direction: column;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .arrow__link i {
+        display: none;
+
+    }
+
+    .porta__wrap {
+        height: 100%;
+    }
+
+    .porta__wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    .sponsors {
+        display: none;
+    }
+
+    .product__card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .product__card_txt {
+        max-width: 500px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .product__card:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .product__card_img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .cards__wrap {
+        flex-wrap: wrap;
+
+    }
+
+    .cards {
+        margin-top: 55px;
+    }
+
+    .cards2 {
+        margin-top: 55px;
+    }
+
+    .cards2__wrap {
+        flex-wrap: wrap;
+    }
+
+    .market__inner {
+        flex-direction: column;
+    }
+
+    .market__inner:nth-child(2) {
+        flex-direction: column;
+
+    }
+
+    .market__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .slider {
+        padding: 40px 0;
+    }
+
+    .slider__txt {
+        line-height: 30px;
+        font-size: 20px;
+
+    }
+}
+@media screen and (max-width:730px){
+    .banner__heading {
+        font-size: 40px;
+}
+    
+
+
+@media screen and (max-width:576px) {
+    .porta__txt h2 {
+        font-size: 26px;
+    }
+    .form__input {
+        width: 290px;
+    }
+    .form {
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-direction: column;
+    }
+    
+
+}
+
+@media screen and (max-width:520px) {
+    .content__btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content__wrap h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:360px) {}
